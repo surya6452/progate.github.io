@@ -1,0 +1,55 @@
+/* UKURAN HANDPHONE */
+
+@media (max-width: 670px) {
+
+    .header-list{
+        visibility: hidden;
+    }
+
+    .menu-icon {
+        visibility:visible;
+    }
+
+
+    .intro h1 {
+        font-size:50px;
+    }
+
+    .intro h2 {
+        font-size:30px;
+    }
+    
+    .about {
+        height:auto;
+    }
+
+    .about-title {
+        padding-bottom:25px;
+    }
+
+    .about-text{
+        font-size:25px;
+        padding-left:10%;
+        padding-right:10%;
+        padding-bottom:30px;
+    }
+
+    .project{
+        height: auto;
+        text-align: center;
+    }
+
+    .bungkus-project {
+        flex-direction:column;
+        display: flex;
+        align-items: center;
+    }
+
+    .project-item {
+        width:100%;
+        padding-bottom: 20px;
+    }
+    
+
+
+}
